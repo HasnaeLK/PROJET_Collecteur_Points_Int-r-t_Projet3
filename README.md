@@ -1,1 +1,38 @@
+# POI Management App
+
+A mobile application for managing Points of Interest (POIs). Users can add, edit, delete, and view POIs on a map. The app allows the user to provide a description and choose a category for each location and manage them easily.
+
+## Features
+
+- Add new Points of Interest (POIs) with descriptions.
+- Edit or delete existing POIs.
+- Display all POIs on a map view.
+- User-friendly interface for managing POIs.
+
+## Screenshots
+
+**Home Page**  
+
+![image](https://github.com/user-attachments/assets/3d0927ab-c170-4ac4-a21f-58cf51e0f2aa)
+
+**Principal Page**  
+
+The home page allows users to add new POIs and access additional features.
+![image](https://github.com/user-attachments/assets/3c879bf8-1895-4837-9955-176a6e340d7e)
+
+**Map View**  
+
+POIs are displayed on a map, showing their locations with pin markers.
+![image](https://github.com/user-attachments/assets/68800312-0cfe-4fce-9138-351fd66262ac)
+
+
+## Installation
+
+### Prerequisites
+
+- Android Studio (or any other preferred IDE for Android development)
+- Android 5.0 or above (for running the app on an emulator or device)
+- Internet connection (for downloading dependencies)
+
+
 
