@@ -51,5 +51,18 @@ The app consists of the following key activities:
 - **PoiDetailActivity:** Displays detailed information about a selected POI.
 - **MapActivity:** Displays POIs on a Google Map.
 
+## Roadmap
+
+- Ajouter la prise en charge des photos pour chaque POI.
+- Intégrer des notifications push pour des rappels liés aux POIs.
+- Améliorer la recherche avec des filtres avancés.
+- Ajouter un mode hors ligne pour consulter les POIs sans connexion Internet.
+
+## Contributions
+
+Les contributions sont les bienvenues ! Suivez ces étapes :
+1. Forkez le dépôt.
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/nom-feature`).
+3. Faites vos modifications et soumettez une pull request.
 
 
