@@ -46,11 +46,11 @@ These permissions are requested in the AndroidManifest.xml.
 
 The app consists of the following key activities:
 
-**- HomeActivity:** The main launcher activity where users can see their POIs and access other features.
-**- AboutActivity:** Provides information about the app.
-**- ManagePoiActivity:** Allows users to manage, edit, or delete POIs.
-**- PoiDetailActivity:** Displays detailed information about a selected POI.
-**- MapActivity:** Displays POIs on a Google Map.
+- **HomeActivity:** The main launcher activity where users can see their POIs and access other features.
+- **AboutActivity:** Provides information about the app.
+- **ManagePoiActivity:** Allows users to manage, edit, or delete POIs.
+- **PoiDetailActivity:** Displays detailed information about a selected POI.
+- **MapActivity:** Displays POIs on a Google Map.
 
 
 
