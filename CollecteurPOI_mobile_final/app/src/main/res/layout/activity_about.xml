@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EAE2F8"
+    tools:context=".AboutActivity">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About this Project\n\n"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Project Details -->
+    <TextView
+        android:id="@+id/projectDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This project was developed as part of the 'Mobile Programming' module using Java and Android Studio IDE.\n\nIt aims to create a Point of Interest (POI) collector. \n"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@id/aboutTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Information about Students -->
+    <TextView
+        android:id="@+id/studentsInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It was developed by 3rd-year Engineering students:\n- Khalloufi Aya\n- El Omari Imane\n- Lakramat Hasnae \nSpecializing in Computer Engineering, at the National School of Applied Sciences of Tangier, Abdelmalek Essaâdi University.\n"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/projectDetails"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Professor Information -->
+    <TextView
+        android:id="@+id/professorInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The supervising professor: Abdelilah AZYAT \n\n"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/studentsInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Date Information -->
+    <TextView
+        android:id="@+id/dateInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="January 2025 / 1446"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/professorInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
