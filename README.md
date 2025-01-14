@@ -34,5 +34,23 @@ POIs are displayed on a map, showing their locations with pin markers.
 - Android 5.0 or above (for running the app on an emulator or device)
 - Internet connection (for downloading dependencies)
 
+## Permissions
+The app requires the following permissions:
+
+- ACCESS_FINE_LOCATION: For obtaining precise location data.
+- ACCESS_COARSE_LOCATION: For obtaining approximate location data.
+
+These permissions are requested in the AndroidManifest.xml.
+
+## Application Structure
+
+The app consists of the following key activities:
+
+**- HomeActivity:** The main launcher activity where users can see their POIs and access other features.
+**- AboutActivity:** Provides information about the app.
+**- ManagePoiActivity:** Allows users to manage, edit, or delete POIs.
+**- PoiDetailActivity:** Displays detailed information about a selected POI.
+**- MapActivity:** Displays POIs on a Google Map.
+
 
 
