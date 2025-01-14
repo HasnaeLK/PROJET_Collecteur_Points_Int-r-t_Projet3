@@ -32,7 +32,6 @@ POIs are displayed on a map, showing their locations with pin markers.
 
 - Android Studio (or any other preferred IDE for Android development)
 - Android 5.0 or above (for running the app on an emulator or device)
-- Internet connection (for downloading dependencies)
 
 ## Permissions
 The app requires the following permissions:
